@@ -6,37 +6,35 @@
     font-family: Arial, sans-serif;
 }
 
-/* Center Content */
+/* Center the Face */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
-    text-align: center;
 }
 
-.container {
-    max-width: 600px;
-}
-
-h1 {
-    margin-bottom: 20px;
-}
-
-/* Icon Grid */
-.icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* Face Layout */
+.face {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
     gap: 20px;
+    position: relative;
+    width: 300px;  /* Slightly bigger */
+    align-items: center;
+    justify-items: center;
 }
 
-.icons a img {
-    width: 100px;
+/* Eyes */
+.eye img {
+    width: 90px;  /* Bigger eyes */
     transition: transform 0.3s ease-in-out;
 }
-
-.icons a img:hover {
-    transform: scale(1.1);
+.left-eye {
+    grid-column: 1;
+    grid-row: 1;
 }
+.right-eye {
+    grid
