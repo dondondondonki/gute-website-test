@@ -1,0 +1,10 @@
+/project-folder
+  ├── index.html        (Homepage with icons)
+  ├── lips.html         (Page for Lips)
+  ├── eye.html          (Page for Eye)
+  ├── ear.html          (Page for Ear)
+  ├── nose.html         (Page for Nose)
+  ├── hand.html         (Page for Hand)
+  ├── styles.css        (CSS for design)
+  ├── script.js         (Optional JavaScript)
+  ├── images/           (Folder for icons)
